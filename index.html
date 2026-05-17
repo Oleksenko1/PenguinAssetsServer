@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Game Assets Server</title>
+    <meta name="description" content="Hosted Addressable assets for Penguin Game (Music & SFX)">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+    
+    <div class="container">
+        <header>
+            <h1>Penguin Game <span>Assets</span></h1>
+            <p>Addressable Asset Hosting Server</p>
+        </header>
+
+        <main>
+            <section class="asset-category glass-panel">
+                <div class="category-header">
+                    <h2>🎵 Music Assets</h2>
+                    <span class="path">/Music/</span>
+                </div>
+                <div class="asset-grid" id="music-grid">
+                    <!-- Music items injected via JS -->
+                </div>
+            </section>
+
+            <section class="asset-category glass-panel">
+                <div class="category-header">
+                    <h2>🔊 Sound Effects (SFX)</h2>
+                    <span class="path">/SFX/</span>
+                </div>
+                <div class="asset-grid" id="sfx-grid">
+                    <!-- SFX items injected via JS -->
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Ready for Unity Addressables • Hosted on GitHub Pages</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
